@@ -16,6 +16,12 @@ The u direction is the toroidal axis (around the donut), and the v direction is 
 
 The .mp4 output is also keyed to start and end on the exact same frame by default.
 
+# Run
+
+```bash
+python3 ./create_torus_animation.py
+```
+
 # Reverse
 
 ```bash
