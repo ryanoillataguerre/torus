@@ -14,7 +14,7 @@ This project/python script takes an image, and wraps it around a torus shape ren
 
 The u direction is the toroidal axis (around the donut), and the v direction is the poloidal axis (falling into the center of the donut).
 
-The .mp4 output is also keyed to start and end on the exact same frame by default.
+The .mp4 output is also keyed to start and end on the exact same frame by default (perfect loop for the .gif).
 
 # Run
 
