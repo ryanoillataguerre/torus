@@ -187,10 +187,10 @@ def main_runner():
     pr.enable()
     create_torus_animation(
         texture_path="space.jpg",
-        output_path="torus_spacetime_animation.mp4",
-        base_frames=600,
+        output_path="space_torus.mp4",
+        base_frames=360,
         speed=1.8,
-        frame_interval=0.02,
+        frame_interval=0.03,
         toroidal_cycles=2,
         view_elev=40,
     )
