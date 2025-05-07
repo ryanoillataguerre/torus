@@ -188,6 +188,11 @@ def main_runner():
     create_torus_animation(
         texture_path="space.jpg",
         output_path="torus_spacetime_animation.mp4",
+        base_frames=600,
+        speed=1.8,
+        frame_interval=0.02,
+        toroidal_cycles=2,
+        view_elev=40,
     )
     pr.disable()
     s = io.StringIO()
