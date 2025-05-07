@@ -1,4 +1,14 @@
-# Torus
+# Torus Animation
+
+## Input Image
+
+![Space Background](space.jpg)
+
+## Animated Torus Output
+
+![Torus Animation](output.gif)
+
+# What
 
 This project/python script takes an image, and wraps it around a torus shape rendered to a plot. It then rotates the entire torus along both the u and v axes.
 
@@ -21,4 +31,3 @@ ffmpeg -i torus_spacetime_animation.mp4 -vf "fps=30,scale=720:-1:flags=lanczos,p
 ffmpeg -i torus_spacetime_animation.mp4 -i palette.png -filter_complex "fps=30,scale=720:-1:flags=lanczos[x];[x][1:v]paletteuse" output.gif
 
 ```
-# torus
