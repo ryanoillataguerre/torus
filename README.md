@@ -26,6 +26,6 @@ ffmpeg -i ./torus_spacetime_animation.mp4 -vf reverse -af areverse torus_spaceti
 
 ```bash
 
-ffmpeg -i torus_spacetime_animation.mp4 -vf "fps=30,scale=720:-1:flags=lanczos" output.gif
+ffmpeg -i torus_spacetime_animation.mp4 -vf "fps=36,scale=720:-1:flags=lanczos" output.gif
 
 ```
